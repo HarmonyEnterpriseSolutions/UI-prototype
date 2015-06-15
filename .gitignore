@@ -12,5 +12,6 @@ angular.js
 
 js/ui-grid.js
 css/ui-grid.css
-release
-data/500_complex.json
+harmony-ui-lib
+interpreter/spr_prod.gfd
+data
