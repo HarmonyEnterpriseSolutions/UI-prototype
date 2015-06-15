@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Harmony">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-animate.js"></script>
+    <script type="text/javascript" src="./release/ui-grid.js"></script>
+    <script type="text/javascript" src="./js/controllers.js"></script>
+    <link rel="stylesheet" href="./release/ui-grid.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div ng-controller="MainController">
+      <button id='toggleFiltering' ng-click="toggleFiltering()" class="btn btn-success">Toggle Filtering</button>
+      <div id="grid1" ui-grid="gridOptions" class="grid"></div>
+    </div>
+</body>
+</html>

@@ -13,4 +13,4 @@ angular.js
 js/ui-grid.js
 css/ui-grid.css
 release
-data
+data/500_complex.json
